@@ -1,3 +1,7 @@
+/*Dan Latre Web
+Diseñado por Daniel Latre
+Version 1
+*/
 
 /*GENERAL*/
 
@@ -9,32 +13,36 @@
    @media (max-width: 1023px) {
     
        
-       body{
-           margin: 0;
-           background-color: rgb(250, 250, 250);
-           padding: 0;
+body{
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+    padding: 0;
 }
 
-
+html{
+    overflow-y: scroll;
+}
   
 h1, h2, h3, h4, p{
     
     margin: 0;
     color: black;
-    font-size: 1em;
+    font-size: 7vw;
+    transition: font-size 0.3s ease-in-out;
 
     
 }
-
+/* el vw modifica el tamaño segun las dimensiones del viewport*/
 h1{
-    font-size: 200%;
+    font-size: 10vw;
  }
  
- h2{
-     font-size: 180%;
+h2{
+    font-size: 6vw;
  }
- h4{
-    font-size:150%;
+
+h4{
+    font-size:5vw;
     
 }
 p{
@@ -228,12 +236,306 @@ footer{
     
     margin-top: 100px;
 }
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 3em;
+    
+    
+    padding: 10px 20px;
+    text-decoration: none;
+    
 
 } 
 
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*VERSION ESCRITORIO*/
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+
+    
+       
+body{
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+    padding: 0;
+}
+
+
+  
+h1, h2, h3, h4, p{
+    
+    margin: 0;
+    color: black;
+    font-size: 1em;
+    transition: font-size 0.25s ease-in-out;
+    
+
+    
+}
+
+h1{
+    font-size: 400%;
+    
+ }
+ 
+ h2{
+     font-size: 280%;
+ }
+ h4{
+    font-size:150%;
+    
+}
+p{
+    font-size: 120%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*
+a:hover{
+    
+    color: grey;
+}
+    */
+.responsive-image{
+    width:100%;
+    height: auto;
+    margin-top:24px ;
+    
+}
+
+.menu-inicio{
+    padding: 0px;
+    margin-top: 25px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+html {
+    overflow-y: scroll;
+}
 
 
 /*
-@media (min-width: 1024px) {
+header{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
     
+    }
+    */
+/*HOME*/
+#negrita{
+    font-weight: 1000;
+}
+
+.blur-text {
+    
+    color: transparent;
+    position: relative;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.blur-text::before {
+    content: attr(data-text); /* Mismo contenido que el texto original */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 150%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: blur(0px); /* Ajusta el valor del difuminado */
+}
+
+    
+.container{
+    max-width: 950px;
+    height: auto;
+    margin: 0 auto;
+    padding: 3px;
+    text-align: start;
+    margin-top: 50px;
+    
+    
+    
+    
+    
+}
+
+#galeria{
+    margin: 24px;
+    max-width: 100%;
+    height: auto;
+    
+    
+    
+    
+}
+
+/*ABOUT ME*/
+#id-about-me{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    text-align: start;
+    margin: 30px;
+    height: auto;
+    width:80%;
+    
+}
+
+
+#about-me{
+    margin-top: 25%;
+}
+.about-me-title{
+    
+    top: 4;
+
+}
+.about-me-bio{
+    margin-top: 35%;
+    
+}
+
+/*ABOUT-ME-contact*/
+
+#contact{
+    
+    text-align: end;
+    margin-top: 20%;
+}
+
+/*OBRA*/
+
+
+#menu-obra{
+    margin: 50px;
+    font-size: 230%;
+    text-align: justify;
+}
+
+
+/*PROYECTO*/
+
+
+.first-image-proyect{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-proyect{
+    font-size: 3em;
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    columns: auto;
+    position: fixed;
+    width:90%;
+    height: 90%;
+    top:85%;
+    
+}
+.text-proyect{
+    margin: 25px;
+    display: flex;
+    flex-direction:unset
+    
+}
+.title-proyect{
+    text-align:start;
+}
+.information-proyect{
+    margin: 5px;
+    margin-top: 25%;
+}
+.proyecto{
+    
+    
+    display: flex;
+    justify-content: center;
+}
+
+.various-options:hover{
+    
+    color: rgba(0, 0, 0, 0.251);
+    font-size: 120%;
+    transition: font-size 0.25s ease-in-out;
+}
+    
+
+.galeria-proyecto{
+    margin: 25px;
+}
+
+
+footer{
+  
+    
+    margin-top: 100px;
+}
+
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 3em;
+    
+    
+    padding: 10px 20px;
+    text-decoration: none;
+    
+
 } 
+
+    
+}
