@@ -1,0 +1,26 @@
+{
+    "name": "Dan Latre",
+    "short_name": "DanLatre",
+    "start_url": "https://danlatre.xyz/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "media/icons/icono_dan_latre_16px.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "src": "media/icons/icono_dan_latre_32px.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "media/icons/icono_dan_latre_180px.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      }
+    ]
+  }
+  
