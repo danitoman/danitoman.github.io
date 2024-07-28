@@ -72,6 +72,10 @@ a{
     margin-top:24px ;
     
 }
+header{
+    background-color: rgb(250, 250, 250);
+
+}
 
 .menu-inicio{
     padding: 0px;
@@ -79,8 +83,9 @@ a{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(250, 250, 250);
     
     
 }
@@ -93,6 +98,7 @@ header{
     top: 0PX;
     width: 100%;
     height: auto;
+  
     
     }
     */
@@ -336,7 +342,7 @@ footer{
 }
 
 
-} 
+}
 
 
 
