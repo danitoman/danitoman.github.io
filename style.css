@@ -431,9 +431,18 @@ a:hover{
     width:100%;
     height: auto;
     margin-top:24px ;
+    max-width: 80%;
+    max-height: auto;
+
     
 }
+.image-vertical{
+    max-height: 50%;
+    justify-content: space-between;
 
+    display: flex;
+
+}
 #CV{
     margin: 8px;
     
@@ -501,6 +510,19 @@ header{
     margin: 0 auto;
     padding: 3px;
     text-align: start;
+    margin-top: 50px;
+    
+    
+    
+    
+    
+}
+.container-inicio{
+    max-width: 950px;
+    height: auto;
+    margin: 0 auto;
+    padding: 3px;
+    text-align: center;
     margin-top: 50px;
     
     
