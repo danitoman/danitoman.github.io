@@ -137,7 +137,7 @@ header{
     padding: 3px;
     text-align: start;
     margin-top: 30%;
-    align-items: ;
+    
      
 }
  
@@ -238,8 +238,8 @@ main{
 }
 
 
+/*
 .nav-proyect{
-    /*
     font-size: 3em;
     align-items: end;
     display: flex;
@@ -295,7 +295,7 @@ main{
     margin: 24px;
     display: flex;
     flex-direction:unset;
-    Z
+    
     
 }
 .title-proyect{
@@ -361,7 +361,6 @@ footer{
 }
 
 
-}
 
 
 
@@ -461,10 +460,8 @@ a:hover{
     display: flex;
 
 }
-header{
-    back
-}
-#CV{
+
+#about-me{
     margin: 8px;
     
 }
@@ -524,13 +521,6 @@ header{
     filter: blur(0px); /* Ajusta el valor del difuminado */
 }
 
-.gallery img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    display: block;
-    margin: 10px auto;
-}
 
 
 
