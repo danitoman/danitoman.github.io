@@ -273,8 +273,7 @@ main{
 }
 
 .nav-arrow {
-   
-   
+ 
     padding: 15px;
     font-size: 2rem;
     
@@ -612,56 +611,121 @@ main{
 /*PROYECTO*/
     /*navegador-proyecto*/
 
-.nav-proyect{
-    font-size: 3em;
-
-    align-items: end;
-    display: flex;
-    flex-direction: column;
-    columns: auto;
-    position: fixed;
-    width:90%;
-    height: 90%;
-    top:80%;
-    
-}
 header{
     position: fixed;
     top: 0PX;
     width: 100%;
     height: auto;
+        
+        
+      
+        
+}
+
+.nav-proyect{
+    font-size: vw;
+    align-items:center;
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    width:48px;
+    top:75%;
+    left: 80%;
     
-    
-  
-    
-    }
+}
+
 .up-arrow{
-    
+    padding: 8px;
+    margin: 0;
     color: black;
-    font-size: 3rem;
+ 
 }
 
 .down-arrow {
-    
+    padding: 8px;
+    margin: 0;
     color: black;
-    font-size: 3rem;
+  
 }
 
 .up-arrow:hover{
     
     color: gray;
-    font-size: 3rem;
+   
 }
 
 .down-arrow:hover{
     
     color: gray;
-    font-size: 3rem;
+ 
 }
 
 
     /*contenido-proyecto*/
+   
+    .image-gallery img {
+       
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    
 
+    
+    .fullscreen-container {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.8);
+        z-index: 1000;
+    }
+    
+    .fullscreen-image {
+        max-width: 95%;
+        max-height: 95%;
+    }
+
+    .fullscreen-container .left-half,
+    .fullscreen-container .right-half {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 50%;
+        cursor: pointer;
+        z-index: 1; /* Asegura que están encima de la imagen */
+    }
+    
+    .fullscreen-container .left-half {
+        left: 0;
+        cursor: w-resize;
+        
+    }
+    
+    .fullscreen-container .right-half {
+        right: 0;
+        cursor:w-resize;
+    }
+
+ 
+    .close {
+        position: absolute;
+        top: 30px;
+        right: 210px;
+        font-size: 350%;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        
+        cursor: pointer;
+        z-index: 2; /* Asegura que está encima de todo */
+    }
+    
+    .close:hover {
+        color: #bbb;
+    }
 .container{
     max-width: 50%;
     max-height: 70%;
@@ -686,19 +750,22 @@ header{
 
 .text-proyect{
     margin: 0;
+    padding-top: 24px;
     display: flex;
-    flex-direction:unset;
+    
     
     
 }
 
 .title-proyect{
     text-align:start;
+    width: 35%;
 }
 .information-proyect{
     margin: 5px;
-    margin-top: 5%;
+    margin-top: 0;
     text-align: start;
+    width: 65%;
 }
 .proyecto{
     

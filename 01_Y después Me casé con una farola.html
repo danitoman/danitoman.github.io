@@ -20,7 +20,7 @@
             <h1><a href="index.html"><b>Dan Latre</b></a></h1>
             <nav>
                 <h2> 
-                    <a href="about-me.html" style="margin: 16px;">+</a>
+                    <a href="about-me.html" style="margin-right: 16px;">+</a>
                     <a href="obra.html" style="margin-left: 16px;">obra</a>
                 </h2>
             </nav>
@@ -64,14 +64,24 @@
 
 
             <section class="galeria-proyecto">
-                <img src="media/rosa.jpg" alt="Imagen de proyecto" class="responsive-image">
-                <img src="media/rosa.jpg" alt="Imagen de proyecto" class="responsive-image">
+               
+
+                    <img src="media/encontre/Encontre_carbon_cuenca_daniel_latre_ 1.jpg" alt="Imagen de proyecto" class="responsive-image" onclick="openFullscreen(this)">
                 
-                <img src="media/rosa.jpg" alt="Imagen de proyecto" class="responsive-image">
-                <img src="media/rosa.jpg" alt="Imagen de proyecto" class="responsive-image">
-                <img src="media/salmon.jpg" alt="Imagen de proyecto" class="responsive-image">
-            </section>
+                    <img src="media/rosa.jpg" alt="Imagen de proyecto" class="responsive-image">
+                    
+                    <img src="media/rosa.jpg" alt="Imagen de proyecto" class="responsive-image">
+                    <img src="media/rosa.jpg" alt="Imagen de proyecto" class="responsive-image">
+                    <img src="media/salmon.jpg" alt="Imagen de proyecto" class="responsive-image">
+                </section>
+
+                <div id="fullscreenContainer" class="fullscreen-container" onclick="closeFullscreen()">
+                    <img id="fullscreenImage" class="fullscreen-image" src="" alt="Imagen en pantalla completa">
+                </div>
+            
+              
         </div>
     </main>
+    <script src="scripts.js"></script>
 </body>
 </html>

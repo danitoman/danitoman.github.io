@@ -20,7 +20,7 @@
             <h1><a href="index.html"><b>Dan Latre</b></a></h1>
             <nav>
                 <h2> 
-                    <a href="about-me.html" style="margin: 16px;">+</a>
+                    <a href="about-me.html"  style="margin-right: 16px;">+</a>
                     <a href="obra.html" style="margin-left: 16px;">obra</a>
                 </h2>
             </nav>
@@ -36,8 +36,10 @@
     <main>
         <div class="container">
                 <section class="proyecto-base"> 
-               
-                    <img src="media/caja/Caja_cuenca_daniel_latre_5.jpg" alt="Imagen de proyecto" class="responsive-image">
+                    <div class="image-gallery">
+
+                        <img src="media/caja/Caja_cuenca_daniel_latre_5.jpg" alt="Imagen de proyecto" class="responsive-image" onclick="openFullscreen(this)">
+                    </div>
                     
                     <div class="text-proyect">
 
@@ -64,25 +66,32 @@
                 
                 </section>
                 <section class="galeria-proyecto">
-                    <img src="media/caja/Caja_cuenca_daniel_latre_1.jpg" class="responsive-image">
-                    <div class="image-vertical">
+                    <div class="image-gallery">
 
-                        <img src="media/caja/Caja_cuenca_daniel_latre_2.jpg" alt="Imagen de proyecto" class="image-vertical-individual-L">
-                        <img src="media/caja/Caja_cuenca_daniel_latre_3.jpg" alt="Imagen de proyecto" class="image-vertical-individual-R" >
+                        <img src="media/caja/Caja_cuenca_daniel_latre_1.jpg" class="responsive-image" onclick="openFullscreen(this)">
+                        <div class="image-vertical">
+                            
+                            <img src="media/caja/Caja_cuenca_daniel_latre_2.jpg" alt="Imagen de proyecto" class="image-vertical-individual-L" onclick="openFullscreen(this)">
+                            <img src="media/caja/Caja_cuenca_daniel_latre_3.jpg" alt="Imagen de proyecto" class="image-vertical-individual-R" onclick="openFullscreen(this)">
+                        </div>
+                        <img src="media/caja/Caja_cuenca_daniel_latre_0.jpg" alt="Imagen de proyecto" class="responsive-image" onclick="openFullscreen(this)">
                     </div>
-                    <img src="media/caja/Caja_cuenca_daniel_latre_0.jpg" alt="Imagen de proyecto" class="responsive-image">
                     <!--
                     <img src="media/DSCF4681.JPG" alt="Imagen de proyecto" class="responsive-image">
                     <img src="media/construirlominimo_3.jpg" alt="Imagen de proyecto" class="responsive-image">
                     <img src="media/construirlominimo_1.PNG" alt="Imagen de proyecto" class="responsive-image"><img src="media/instalacion.jpg" alt="Imagen de proyecto" class="responsive-image">
+                    -->
                 </section>
                 
-                -->
                 
-       
+                <div id="fullscreenContainer" class="fullscreen-container">
+                    <span class="close" onclick="closeFullscreen()">&times;</span>
+                    <img id="fullscreenImage" class="fullscreen-image" src="" alt="Imagen en pantalla completa">
+                </div>
             
             
 
     </main>
+    <script src="scripts.js"></script>
 </body>
 </html>
