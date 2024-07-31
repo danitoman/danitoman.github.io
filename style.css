@@ -72,6 +72,19 @@ a{
     margin-top:24px ;
     
 }
+.image-vertical-individual-L{
+    width:100%;
+    height: auto;
+    margin-top:24px ;
+    
+}
+.image-vertical-individual-R{
+    width:100%;
+    height: auto;
+    margin-top:24px ;
+    
+    
+}
 header{
     background-color: rgb(250, 250, 250);
 
@@ -111,22 +124,10 @@ header{
     color: transparent;
     position: relative;
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    filter: blur(0px);
 }
 
-.blur-text::before {
-    content: attr(data-text); /* Mismo contenido que el texto original */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 150%;
-    height: 150%;
-    font-size:;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    filter: blur(0px); /* Ajusta el valor del difuminado */
-}
+
 
     
 .container{
@@ -136,13 +137,23 @@ header{
     padding: 3px;
     text-align: start;
     margin-top: 30%;
+    align-items: ;
+     
+}
+ 
+.container-inicio{
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 3px;
+    text-align: center;
+    margin-top: 30%;
     
     
     
     
     
 }
-
 #galeria{
     margin: 24px;
     max-width: 100%;
@@ -170,6 +181,9 @@ header{
 
 
 /*ABOUT ME*/
+main{
+    margin-top: 30%;
+}
 #id-about-me{
         margin: 0;
         padding: 0;
@@ -188,7 +202,7 @@ header{
 
 }
 .about-me-bio{
-    margin-top: 35%;
+    margin-top: 5%;
     
 }
 
@@ -198,17 +212,22 @@ header{
     font-size: 1rem;
     text-align: end;
     margin-top: 20%;
+    margin-right: 24px;
 }
 
 /*OBRA*/
 
 
 #menu-obra{
-    margin: 50px;
+    margin-top: 30%;
     font-size: 230%;
-    text-align: justify;
+    
 }
-
+.container-obra{
+    justify-content: start;
+    margin:10%;
+   
+}
 
 /*PROYECTO*/
 
@@ -431,8 +450,7 @@ a:hover{
     width:100%;
     height: auto;
     margin-top:24px ;
-    max-width: 80%;
-    max-height: auto;
+
 
     
 }
@@ -442,6 +460,9 @@ a:hover{
 
     display: flex;
 
+}
+header{
+    back
 }
 #CV{
     margin: 8px;
@@ -503,33 +524,31 @@ header{
     filter: blur(0px); /* Ajusta el valor del difuminado */
 }
 
-    
-.container{
-    max-width: 950px;
+.gallery img {
+    width: 100%;
+    max-width: 300px;
     height: auto;
-    margin: 0 auto;
-    padding: 3px;
-    text-align: start;
-    margin-top: 50px;
-    
-    
-    
-    
-    
+    display: block;
+    margin: 10px auto;
 }
+
+
+
 .container-inicio{
-    max-width: 950px;
+    max-width: 60%;
+   
     height: auto;
     margin: 0 auto;
     padding: 3px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 0%;
     
     
     
     
     
 }
+
 
 #galeria{
     margin: 24px;
@@ -549,10 +568,14 @@ header{
     text-align: start;
     margin: 30px;
     height: auto;
-    width:80%;
+    width:70%;
     
 }
-
+main{
+    
+    margin-top: 10%;
+    margin-left: 24px;
+}
 
 #about-me{
     margin-top: 25%;
@@ -585,21 +608,23 @@ header{
 #menu-obra{
     margin: 50px;
     font-size: 230%;
-    text-align: justify;
+    text-align: start;
+   
+
 }
 
+.container-obra{
+    justify-content: start;
+    margin-left: 20%;
+    margin-top: 180px;
+}
 
 /*PROYECTO*/
-
-
-.first-image-proyect{
-    margin: 0;
-    padding: 0;
-}
-
+    /*navegador-proyecto*/
 
 .nav-proyect{
     font-size: 3em;
+
     align-items: end;
     display: flex;
     flex-direction: column;
@@ -607,21 +632,83 @@ header{
     position: fixed;
     width:90%;
     height: 90%;
-    top:85%;
+    top:80%;
     
 }
+header{
+    position: fixed;
+    top: 0PX;
+    width: 100%;
+    height: auto;
+    
+    
+  
+    
+    }
+.up-arrow{
+    
+    color: black;
+    font-size: 3rem;
+}
+
+.down-arrow {
+    
+    color: black;
+    font-size: 3rem;
+}
+
+.up-arrow:hover{
+    
+    color: gray;
+    font-size: 3rem;
+}
+
+.down-arrow:hover{
+    
+    color: gray;
+    font-size: 3rem;
+}
+
+
+    /*contenido-proyecto*/
+
+.container{
+    max-width: 50%;
+    max-height: 70%;
+
+    margin: 0 auto;
+    padding: 3px;
+    text-align: center;
+    margin-top: 50px;
+    
+   
+    
+    
+    
+}
+    
+.first-image-proyect{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .text-proyect{
-    margin: 25px;
+    margin: 0;
     display: flex;
-    flex-direction:unset
+    flex-direction:unset;
+    
     
 }
+
 .title-proyect{
     text-align:start;
 }
 .information-proyect{
     margin: 5px;
-    margin-top: 25%;
+    margin-top: 5%;
+    text-align: start;
 }
 .proyecto{
     
@@ -637,9 +724,29 @@ header{
     transition: font-size 0.25s ease-in-out;
 }
     
-
+.image-vertical{
+    max-width:m-content;
+    text-align: center;
+    
+}
+.image-vertical-individual-L{
+    width:100%;
+    height: auto;
+    margin-top:24px ;
+    
+    margin-right: 12px;
+}
+.image-vertical-individual-R{
+    width:100%;
+    height: auto;
+    margin-top:24px ;
+    margin-left: 12px;
+    
+}
 .galeria-proyecto{
     margin: 25px;
+    align-items: center;
+   
 }
 
 
