@@ -114,6 +114,13 @@ Version 1
             background-image: url(media_WEB/pruebas_labo_daniel_latre_00_4.jpg);
             
         }
+
+   .flecha{
+        text-decoration: none;
+       }
+       .flecha:hover{text-decoration: underline;}
+
+
     .galeria{
         margin-top: 320px;
         display: flex;
