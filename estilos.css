@@ -101,7 +101,7 @@ Version 1
        .imagenprimera{
             display: block;
            
-            background-image: url(2/pruebas_labo_daniel_latre_00_3.jpg);
+            background-image: url(media_WEB/pruebas_labo_daniel_latre_00_3.jpg);
             background-size: cover;
             background-position: center;
             
@@ -111,7 +111,7 @@ Version 1
             margin-top: 240px;
         }
         .imagenprimera:hover{
-            background-image: url(2/pruebas_labo_daniel_latre_00_4.jpg);
+            background-image: url(media_WEB/pruebas_labo_daniel_latre_00_4.jpg);
             
         }
     .galeria{
@@ -269,7 +269,7 @@ Version 1
        .imagenprimera{
             display: block;
             width: 20%;
-            background-image: url(2/pruebas_labo_daniel_latre_00_3.jpg);
+            background-image: url(media_WEB/pruebas_labo_daniel_latre_00_3.jpg);
             background-size: cover;
             background-position: center;
             transition: background-image 0.3s ease;
@@ -278,7 +278,7 @@ Version 1
             margin-top: 240px;
         }
         .imagenprimera:hover{
-            background-image: url(2/pruebas_labo_daniel_latre_00_4.jpg);
+            background-image: url(media_WEB/pruebas_labo_daniel_latre_00_4.jpg);
             
         }
 
