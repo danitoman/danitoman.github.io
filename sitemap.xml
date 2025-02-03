@@ -8,49 +8,24 @@
 
 
 <url>
-  <loc>http://danlatre.xyz/</loc>
-  <lastmod>2024-07-24T02:35:01+00:00</lastmod>
+  <loc>https://danlatre.xyz/</loc>
+  <lastmod>2025-02-03T02:29:10+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://danlatre.xyz/CV.html</loc>
-  <lastmod>2024-07-24T02:35:01+00:00</lastmod>
+  <loc>https://danlatre.xyz/index.html</loc>
+  <lastmod>2025-02-03T02:29:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://danlatre.xyz/obra.html</loc>
-  <lastmod>2024-07-24T02:35:01+00:00</lastmod>
+  <loc>https://danlatre.xyz/CV.html</loc>
+  <lastmod>2025-02-03T02:29:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://danlatre.xyz/index.html</loc>
-  <lastmod>2024-07-24T02:35:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://danlatre.xyz/proyecto%20I.html</loc>
-  <lastmod>2024-07-24T02:35:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://danlatre.xyz/proyecto%20II.html</loc>
-  <lastmod>2024-07-24T02:35:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://danlatre.xyz/proyecto%20III.html</loc>
-  <lastmod>2024-07-24T02:35:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://danlatre.xyz/proyecto%20IV.html</loc>
-  <lastmod>2024-07-24T02:35:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://danlatre.xyz/proyecto%20V.html</loc>
-  <lastmod>2024-07-24T02:35:01+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://danlatre.xyz/more.html</loc>
+  <lastmod>2025-02-03T02:29:10+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
